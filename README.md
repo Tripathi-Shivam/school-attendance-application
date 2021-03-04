@@ -1,6 +1,6 @@
 # Student Attendance Application
 
-![Project Image](/.git-res/JsonPowerDB-Demo.gif)
+![Project Image](/.git-res/demo.JPG)
 
 > An application to track student attendance.
 
@@ -9,7 +9,6 @@
 ### Table of Contents
 
 -   [Description](#description)
--   [JsonPowerDB Features](#JsonPowerDB-Features)
 -   [How To Use](#how-to-use)
 -   [Author Info](#author-info)
 
@@ -17,7 +16,7 @@
 
 ## Description
 
-JavaScript Object Notation (JSON) is having explosive growth in recent years and is slowly becoming the de-facto standard for data and communications. The main motivation of this project is to learn JsonPowerDB and connect it with some front-end to see how it works.
+The main motivation of this project is to try and build a student attendance tracking app and connect it with some back-end and store it for future processing.
 
 #### Technologies
 
@@ -31,27 +30,17 @@ JavaScript Object Notation (JSON) is having explosive growth in recent years and
 
 ---
 
-## JsonPowerDB Features
-
--   Schema free
--   Nimble, simple to use and real-time
--   Server Side Native NoSQL -best performance
--   Inbuilt support for Quering Multiple Databases
--   Fast development
-
-[Back To The Top](#Student-Attendance-Application)
-
----
-
 ## How To Use
 
 ```
     > Clone the repo
         >> For Windows: Git Bash
         >> For Linux: Terminal
-        >> git clone https://github.com/Tripathi-Shivam/JsonPowerDB-Project.git
-    > Open app.js and change connnection token.
-    > Open index.html in any browser.
+        >> git clone https://github.com/Tripathi-Shivam/school-attendance-application.git
+    > Install Apache Tomcat 9.0.
+    > Navigate to C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps and clone the repo it this folder
+    > Lauch XAMPP and start Apache and MySQL modules.
+    > Note: you need to create your own database and table for now.
 ```
 
 [Back To The Top](#Student-Attendance-Application)
