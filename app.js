@@ -1,7 +1,6 @@
 document
     .getElementById("teacherRegisterButton")
     .addEventListener("click", (event) => {
-        // console.log(validateTeacherRegistrationInput());
         event.preventDefault();
         registerTeacher();
     });
@@ -9,7 +8,6 @@ document
 document
     .getElementById("studentRegisterButton")
     .addEventListener("click", (event) => {
-        //registerStudent();
         event.preventDefault();
         registerStudent();
     });

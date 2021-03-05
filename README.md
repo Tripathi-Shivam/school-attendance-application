@@ -40,7 +40,8 @@ The main motivation of this project is to try and build a student attendance tra
     > Install Apache Tomcat 9.0.
     > Navigate to C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps and clone the repo it this folder
     > Lauch XAMPP and start Apache and MySQL modules.
-    > Note: you need to create your own database and table for now.
+    > Create a Database named "school_attendance" and import the schema provided with the file name "database.sql".
+    > Open brower and type "localhost:8080/school-attendance-application" in the url to run.
 ```
 
 [Back To The Top](#Student-Attendance-Application)

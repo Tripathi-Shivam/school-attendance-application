@@ -18,7 +18,6 @@ const studentLoginDiv = document.getElementById("studentLoginDiv");
 loginButton.addEventListener("click", () => {
     registerDiv.classList.add("d-none");
     loginDiv.classList.remove("d-none");
-    //console.log(registerDiv);
 });
 
 // Shows the div of register
@@ -27,18 +26,21 @@ registerButton.addEventListener("click", () => {
     registerDiv.classList.remove("d-none");
 });
 
+// Hides the teacher registration form and shows student registration form
 document.getElementById("showStudent").addEventListener("click", (event) => {
     event.preventDefault();
     teacherRegistrationDiv.classList.add("d-none");
     studentRegistrationDiv.classList.remove("d-none");
 });
 
+// Hides the student registration form and shows teacher registration form
 document.getElementById("showTeacher").addEventListener("click", (event) => {
     event.preventDefault();
     studentRegistrationDiv.classList.add("d-none");
     teacherRegistrationDiv.classList.remove("d-none");
 });
 
+// Hides teacher login form and shows student login form
 document
     .getElementById("showStudentLogin")
     .addEventListener("click", (event) => {
@@ -47,6 +49,7 @@ document
         studentLoginDiv.classList.remove("d-none");
     });
 
+// Hides student login form and shows teacher login form
 document
     .getElementById("showTeacherLogin")
     .addEventListener("click", (event) => {

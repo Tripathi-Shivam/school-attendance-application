@@ -6,7 +6,7 @@
 
     try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root",""); 
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/school_attendance","root",""); 
         PreparedStatement ps = conn.prepareStatement("SELECT * FROM teacher WHERE teacherName = ? && teacherPassword = ?;");
         ps.setString(1, teacherNameLogin);
         ps.setString(2, teacherPasswordLogin);

@@ -7,7 +7,7 @@
 
     try {
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root",""); 
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/school_attendance","root",""); 
         PreparedStatement ps = conn.prepareStatement("INSERT INTO student(studentName, studentEmail, studentPassword) values(?,?,?);");;
         ps.setString(1, studentName);
         ps.setString(2, studentEmail);
