@@ -6,6 +6,8 @@ if (!isset($_SESSION["teacher_id"])) {
     header("location:teacher_login.php");
 }
 ?>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
